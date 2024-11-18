@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "Doto";
+  src: url(../fonts/Doto/Doto-VariableFont_ROND\wght.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+body {
+  margin: 0px;
+}
+html {
+  font-family: "Doto";
+  font-size: 18px;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/hero-image.avif) no-repeat center / cover;
+  color: antiquewhite;
+}
+.hero-image {
+  width: 90%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.hero-text {
+  font-size: 2.8rem;
+  text-align: left;
+  color: #1b5568;
+  text-decoration: double;
+  text-shadow: 2px 2px 2px #0b3442;
+}
+
+.news h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #1b5568;
+}
+
+.navbar {
+  font-family: "Doto", sans-serif;
+}
+.navbar ul {
+  list-style: none;
+  background-color: #32748d;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  font-family: "Doto";
+}
+
+.navbar a {
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-family: "Doto";
+}
+.navbar a:hover {
+  background-color: #1b5568;
+}
+.navbar li {
+  float: left;
+}
+
+#aside {
+  font-family: "Doto", sans-serif;
+}
+.sidenav {
+  float: left;
+  width: 29%;
+}
+
+.news ul {
+  list-style: none;
+  background-color: #bbdce7;
+  padding: 0px;
+  font-family: "Doto";
+  display: grid;
+  grid-auto-flow: row;
+  float: right;
+  gap: 2px;
+}
+
+.news a {
+  color: #1b5568;
+  font-size: x-large;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-family: "Doto";
+}
+.news a:hover {
+  background-color: #7eabba;
+}
+
+.news h2 {
+  margin: 2cm;
+  font-size: 2.3rem;
+  text-align: left;
+  color: #1b5568;
+}
+
+.sign-up-header {
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #1b5568;
+  text-shadow: #0b3442 1px 1px 1px;
+}
+
+.form {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: left;
+  color: #1b5568;
+  margin: 2cm;
+}
+
+.submit-button {
+  background-color: #32748d;
+  border-color: #32748d;
+  color: #f0ae4b;
+  font-size: 1cm;
+  size: 2cm 3cm;
+}
+
+.studies {
+  background-color: #f1f7f7;
+  color: #0b3442;
+  font-size: medium;
+}
+
+.container {
+  margin-top: 5%;
+  margin-left: 35%;
+  align-items: center;
+  float: left;
+}
+.image {
+  float: left;
+  padding: 5px;
+}
+
+.contacts-title {
+  font-style: normal;
+  font-family: "Doto", sans-serif;
+  color: #1b5568;
+  font-size: 1.2cm;
+  text-align: center;
+}
+
+.contacts-location {
+  font-style: normal;
+  font-family: "Doto", sans-serif;
+  color: #1b5568;
+  font-size: 0.7cm;
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 4%;
+}
+
+.logo-location {
+  display: grid;
+  align-items: center;
+  grid-template-columns: max-contents;
+  column-gap: 2px;
+}
+
+.logo {
+  height: 200px;
+  margin-top: 0%;
+  vertical-align: top;
+  float: right;
+}
+
+.iframe {
+  margin-left: 30%;
+}
+
+.email {
+  font-style: normal;
+  font-family: "Doto", sans-serif;
+  color: #1b5568;
+  font-size: 0.7cm;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 25%;
+  margin-top: 4%;
+}
+
+.intro-text {
+  float: right;
+  color: #f0ae4b;
+  font-family: "Doto";
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  width: 70%;
+}
+
+.article1 {
+  color: #1b5568;
+  font-family: "Doto";
+  font-size: 30px;
+  text-align: center;
+  line-height: 120%;
+  font-weight: bold;
+}
+.about-us h1 {
+  color: #1b5568;
+  font-family: "Doto";
+  font-size: 60px;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+
+.about-us h2 {
+  color: #f0ae4b;
+  font-family: "Doto";
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 5px;
+  clear: both;
+}
+
+.article2 {
+  color: #1b5568;
+  font-family: "Doto";
+  font-size: 25px;
+  text-align: center;
+  line-height: 120%;
+  font-weight: normal;
+}
+
+.article3 {
+  color: #1b5568;
+  font-family: "Doto";
+  font-size: 25px;
+  text-align: center;
+  line-height: 120%;
+  font-weight: normal;
+}
+.article4 {
+  color: #1b5568;
+  font-family: "Doto";
+  font-size: 25px;
+  text-align: center;
+  line-height: 120%;
+  font-weight: bold;
+}
+
+.homepage-logo {
+  height: 300px;
+  margin-top: 0%;
+  vertical-align: top;
+  margin-left: 35%;
+}
+
+.Founders {
+  height: 700px;
+  margin-top: 0%;
+  vertical-align: top;
+  margin-left: 5%;
+}
+
+#footer {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+  color: #1b5568;
+}
