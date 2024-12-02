@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+  #title {
+    color: #4a4e69;
+    font-size: 3rem;
+    text-decoration: wavy;
+    text-align: left;
+    font-style: italic;
+  }
+  .navbar-items {
+    cursor: pointer;
+    float: none;
+  }
+
+  .grid {
+    display: grid;
+    height: 150px;
+    width: 300px;
+    background-color: #f2e9e4;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    float: left;
+  }
+  #venice-image {
+    height: 300px;
+    width: 500px;
+  }
+  aside {
+    margin-top: 2000px;
+    float: left;
+  }
+  .footer {
+    margin-top: 2500px;
+    float: left;
+  }
+}

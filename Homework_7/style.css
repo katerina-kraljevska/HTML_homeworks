@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2e9e4;
+}
+
+@font-face {
+  font-family: "AnonomusPro";
+  src: url(./font/Anonymous_Pro/AnonymousPro-BoldItalic.ttf);
+}
+
+#title {
+  color: #4a4e69;
+  font-size: 5rem;
+  text-decoration: wavy;
+  text-align: center;
+  font-style: italic;
+}
+
+.navbar {
+  font-family: "AnonomusPro", sans-serif;
+}
+
+#nav-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px;
+}
+.navbar-items {
+  float: left;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  background-color: #4a4e69;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  font-family: "AnonomusPro";
+}
+.navbar a {
+  color: #f2e9e4;
+  font-size: x-large;
+  text-decoration: solid;
+  padding: 15px;
+  display: flow-root;
+  text-align: center;
+  font-family: "AnomomusPro";
+}
+.navbar-items :hover {
+  background-color: #22223b;
+}
+#HauntingInVenice {
+  font-family: "AnomomusPro";
+  font-size: 2.5rem;
+  color: #4a4e69;
+  margin-left: 10%;
+}
+#release-year {
+  font-family: "AnomomusPro";
+  font-size: 2rem;
+  color: #4a4e69;
+  margin-left: 40%;
+}
+#venice-image {
+  height: 900px;
+  width: 1550px;
+}
+
+.play-trailer {
+  height: 60px;
+  background-color: #4a4e69;
+  color: #f2e9e4;
+  margin-left: 40%;
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgroud-color 0.3s ease 0s, transform 0.3s ease 0s;
+}
+.play-trailer:hover {
+  background-color: #22223b;
+  transform: scale(1.2);
+}
+.play-link {
+  font-family: "AnonomusPro";
+  text-decoration: none;
+  font-size: x-large;
+}
+.play-link:visited {
+  color: #f2e9e4;
+  text-decoration: none;
+}
+
+#movie-description {
+  font-family: "AnomomusPro";
+  font-style: bold;
+  font-size: 1.5rem;
+  color: #4a4e69;
+  text-align: center;
+}
+.child {
+  height: 650px;
+  width: 300px;
+  background-color: #c9ada7;
+  margin: 0 auto;
+}
+.child-image {
+  height: 400px;
+  width: 270px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.grid {
+  display: grid;
+  height: 700px;
+  width: 1000px;
+  background-color: #f2e9e4;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin: 0 auto;
+}
+
+.trailer {
+  font-family: "AnonomusPro";
+  text-decoration: none;
+  font-size: 0.8rem;
+  height: 60px;
+  background-color: #4a4e69;
+  color: aliceblue;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgroud-color 0.3s ease 0s, transform 0.3s ease 0s;
+}
+.trailer:hover {
+  background-color: #22223b;
+  transform: scale(1.1);
+}
+.review {
+  font-family: "AnonomusPro";
+  text-decoration: none;
+  font-size: 0.8rem;
+  height: 60px;
+  background-color: #4a4e69;
+  color: #f2e9e4;
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgroud-color 0.3s ease 0s, transform 0.3s ease 0s;
+}
+.review:hover {
+  background-color: #22223b;
+  transform: scale(1.1);
+}
+.information h4 {
+  font-family: "AnonomusPro";
+  text-decoration: none;
+  font-size: x-large;
+  font-family: "AnonomusPro";
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #4a4e69;
+  margin-left: 20px;
+}
+.footer {
+  text-align: center;
+}
+.buttons {
+  margin-left: 30px;
+}
+#copyright {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+  color: #22223b;
+  font-size: 1.5rem;
+}
+.social-media {
+  display: grid;
+  height: 100px;
+  width: 300px;
+  background-color: #f2e9e4;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin: 0 auto;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+#socal-media-links {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+  color: #4a4e69;
+  font-size: 2rem;
+}
+
+.netflix {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  margin: 0 auto;
+}
+#streaming {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+  color: #4a4e69;
+  font-size: 2rem;
+}
